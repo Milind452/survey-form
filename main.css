@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	background-image: url(https://coolbackgrounds.io/images/backgrounds/black/black-unsplash-71f6eaaa.jpg);
+	/* background-image: url(https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	color: white;
+}
+
+#survey-form {
+	background-color: rgb(1, 1, 19);
+	opacity: 0.8;
+	margin: 10%;
+	padding: 3%;
+	border-radius: 10px;
+}
+
+#name-label {
+	display: block;
+}
+
+#email-label {
+	display: block;
+}
