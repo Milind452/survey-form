@@ -43,6 +43,20 @@ body {
 }
 
 .gender {
-	max-width: max-content;
 	margin: 0 0 10px 0;
 }
+
+#editor-section {
+	display: flex;
+	flex-direction: column;
+}
+
+#editor-section label {
+	padding: 0 0 5px 0;
+}
+
+#editor-title {
+	padding: 20px 0 10px 0 !important;
+	font-size: 20px;
+}
+
