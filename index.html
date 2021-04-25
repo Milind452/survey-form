@@ -17,12 +17,19 @@
 		</header>
 		<main id="main">
 			<form id="survey-form">
+				<!-- Name -->
 				<label id="name-label" for="name">Name</label>
 				<input id="name" name="name" type="text" placeholder="Enter your full name" required>
+
+				<!-- Email -->
 				<label id="email-label" for="email">Email</label>
 				<input id="email" name="email" type="email" placeholder="Enter your email ID" required>
+
+				<!-- Age -->
 				<label id="number-label" for="number">Age</label>
 				<input id="number" name="number" type="number" placeholder="Enter your age" min="1" max="100" required>
+
+				<!-- Current role -->
 				<label id="dropdown-label" for="dropdown">Which option best describes your current role</label>
 				<select id="dropdown" name="dropdown" required>
 					<option disabled="" selected="" value="">Select current role</option>
@@ -31,6 +38,8 @@
 					<option value="preferNot">Prefer not to say</option>
 					<option value="other">Other</option>
 				</select>
+
+				<!-- Gender -->
 				<label id="gender-title">Gender</label>
 				<input type="radio" id="male" class="gender radio" name="gender" value="male">
 				<label for="male" class="gender">Male</label><br>
@@ -38,6 +47,8 @@
 				<label for="female" class="gender">Female</label><br>
 				<input type="radio" id="other" class="gender radio" name="gender" value="other">
 				<label for="other" class="gender">Other</label>
+
+				<!-- Editor -->
 				<label id="editor-title">Favorite text editor (choose all that apply)</label>
 				<label>
 					<input class="checkbox" type="checkbox" name="editor" value="vscode">
@@ -59,10 +70,14 @@
 					<input class="checkbox" type="checkbox" name="editor" value="other">
 					Other
 				</label>
+
+				<!-- Comments -->
 				<label for="comments">
 					Any comments or suggestions?
 				</label>
 				<textarea id="comments" name="comments" placeholder="Enter your comments here..."></textarea>
+
+				<!-- Submit -->
 				<button id="submit" type="submit">Submit</button>
 			</form>
 		</main>
