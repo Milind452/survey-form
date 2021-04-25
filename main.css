@@ -60,3 +60,12 @@ body {
 	font-size: 20px;
 }
 
+#comments-label {
+	padding: 20px 0 10px 0;
+	font-size: 20px;
+}
+
+#comments {
+	resize: none;
+	height: 7rem;
+}
