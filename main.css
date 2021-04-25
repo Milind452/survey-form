@@ -36,3 +36,13 @@ body {
 	font-size: 20px;
 }
 
+#gender-title {
+	display: block;
+	padding: 20px 0 10px 0;
+	font-size: 20px;
+}
+
+.gender {
+	max-width: max-content;
+	margin: 0 0 10px 0;
+}
