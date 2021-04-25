@@ -24,12 +24,6 @@ body {
 	margin: 10%;
 	padding: 3%;
 	border-radius: 10px;
-}
-
-#name-label {
-	display: block;
-}
-
-#email-label {
-	display: block;
+	display: flex;
+	flex-direction: column;
 }
